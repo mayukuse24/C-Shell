@@ -1,0 +1,12 @@
+char** copy_string_arr(char** argv)
+{
+  int a;
+  char **newarr;
+  for(a=0;argv[a] != '>';a++)
+    {
+      newarr[a]=argv[a];
+    }
+  newarr[a]= NULL;
+  
+  return newarr;
+}

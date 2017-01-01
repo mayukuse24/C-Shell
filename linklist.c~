@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<unistd.h>
+#include<errno.h>
+#include<sys/types.h>
+#include<pwd.h>
+#include<string.h>
+#include<stdlib.h>
+#include<signal.h>
+#include<fcntl.h>
+
+typedef struct dabba
+{
+  pid_t pid;
+  int proc_state;
+  
+}node;
+
+node* bg_head;
+int top;
+
+void bg_push(node temp)
+{
+  
+}
+
+void bg_pop(node temp)
+{
+  
+
+}
